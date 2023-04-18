@@ -43,5 +43,3 @@ Upload the image and click on predict to predict the yoga pose
 
 ## Contributing
 If you would like to contribute to this project, you can open an issue or submit a pull request. All contributions are welcome!
-
-Special thanks to the authors and contributors of these libraries and datasets for their valuable work.
