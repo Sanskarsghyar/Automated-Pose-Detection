@@ -37,7 +37,7 @@ Install the required dependencies using the following command:
     
 Run the app:
 
-     python app.py
+    python app.py
 
 Click this URL http://127.0.0.1:8080/ to open the app
 
