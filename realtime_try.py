@@ -7,7 +7,7 @@ import mediapipe as mp
 import tensorflow as tf
 import keras
 import sys
-sys.stdout = open('/dev/null', 'w')
+sys.stdout = open(os.devnull, 'w')
 
 mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
