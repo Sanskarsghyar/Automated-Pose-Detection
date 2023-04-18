@@ -1,5 +1,7 @@
 # Automated-Yoga-Pose-Detection 
 
+Undergraduation project | Supervisor: Dr. Tushar Sandhan
+
 Develop an AI-based program for the estimation and identification of yoga poses, which can be used as a self-guidance practice framework for individuals to practice yoga postures without getting help from anyone else
 
 The project utilized deep learning algorithms from Mediapipe to extract 33 key points images as feature vector and classify them into different yoga poses using k-Nearest Neighbour (KNN) and Artificial Neural Networks (ANN) with an accuracy of 99% on training dataset & 96% on testing dataset 
