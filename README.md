@@ -11,7 +11,7 @@ Info
     git clone https://github.com/Sanskarsghyar/Automated-Pose-Detection
 
     
-## A] Steps to access realtime pose detection:
+## A] Steps to run Yoga Pose Detection Window:
 
 Navigate to the project directory:
 
@@ -26,7 +26,7 @@ Run the realtime Python window:
     python realtime_try.py
 
 
-## B] Steps to run pose detection app:
+## B] Steps to run Yoga Pose Detection App:
 Navigate to the project directory:
 
     cd Automated-Pose-Detection\deploy_images
