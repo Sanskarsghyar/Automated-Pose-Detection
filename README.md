@@ -39,9 +39,9 @@ Run the app:
 
     python app.py
 
-Click this URL http://127.0.0.1:8080/ to open the app
+Click this URL http://127.0.0.1:5000/ to open the app
 
-Upload the image and click on submit to predict the yoga pose
+Upload the image and click on predict to predict the yoga pose
 
 
 ## Model Training
