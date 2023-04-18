@@ -17,17 +17,17 @@ Navigate to the project directory:
 
     cd Automated-Pose-Detection
 
-Install the required dependencies using the following command:
+Install the required dependencies:
 
     pip install -q -r requirements.txt
     
-Run the realtimre Python window:
+Run the realtime Python window:
 
     python realtime_try.py
 
 
 ## B] Steps to run pose detection app:
-.Navigate to the project directory:
+Navigate to the project directory:
 
     cd Automated-Pose-Detection\deploy_images
 
@@ -35,14 +35,13 @@ Install the required dependencies using the following command:
 
     pip install -q -r requirements.txt
     
-Run the realtimre Python window:
+Run the app:
 
      python app.py
 
-Click this URL http://127.0.0.1:8080/ to open the app.
+Click this URL http://127.0.0.1:8080/ to open the app
 
 Upload the image and click on submit to predict the yoga pose
-
 
 
 ## Model Training
