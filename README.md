@@ -1,4 +1,4 @@
-# Automated-Pose-Detection App
+# Automated-Yoga-Pose-Detection 
 
 Info
 
