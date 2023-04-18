@@ -1,16 +1,13 @@
 # Automated-Yoga-Pose-Detection 
 
-Info
+Develop an AI-based program for the estimation and identification of yoga poses, which can be used as a self-guidance practice framework for individuals to practice yoga postures without getting help from anyone else
 
-## Features
-- User-friendly interface for 
-- 
+The project utilized deep learning algorithms from Mediapipe to extract 33 key points images as feature vector and classify them into different yoga poses using k-Nearest Neighbour (KNN) and Artificial Neural Networks (ANN) with an accuracy of 99% on training dataset & 96% on testing dataset 
 
 ## Clone the repository to your local machine:
 
     git clone https://github.com/Sanskarsghyar/Automated-Pose-Detection
 
-    
 ## A] Steps to run Yoga Pose Detection Window:
 
 Navigate to the project directory:
@@ -44,21 +41,7 @@ Click this URL http://127.0.0.1:5000/ to open the app
 Upload the image and click on predict to predict the yoga pose
 
 
-## Model Training
-The pre-trained model (mnist.h5) used in this app was trained on the MNIST dataset using a deep neural network. The training code and details of the model architecture can be found in the [Notebook](./notebook/notebook.ipynb) file in this repository.
-
 ## Contributing
 If you would like to contribute to this project, you can open an issue or submit a pull request. All contributions are welcome!
-
-## License
-This project is open-source and available under the MIT License.
-
-## Acknowledgements
-This application was developed using the following libraries and frameworks:
-
-- Streamlit: https://streamlit.io/
-- OpenCV: https://opencv.org/
-- TensorFlow: https://www.tensorflow.org/
-- MNIST dataset: http://yann.lecun.com/exdb/mnist/
 
 Special thanks to the authors and contributors of these libraries and datasets for their valuable work.
