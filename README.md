@@ -1,4 +1,4 @@
-# [Automated-Yoga-Pose-Detection](https://github.com/Sanskarsghyar/Automated-Yoga-Pose-Detection)
+# [Automated-Yoga-Pose-Estimation](https://github.com/Sanskarsghyar/Automated-Yoga-Pose-Estimation)
 
 Undergraduation project | Supervisor: Dr. Tushar Sandhan
 
