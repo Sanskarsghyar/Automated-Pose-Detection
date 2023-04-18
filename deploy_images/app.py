@@ -54,15 +54,15 @@ def predict():
         y_pred = model.predict(x)
         label = np.argmax(y_pred)
         if y_pred[0][label] > 0.75:
-            if(label==0): pose_detect = 'Plank_Pose_or_Kumbhakasana_'    
-            if(label==1): pose_detect = 'Warrior_I_Pose_or_Virabhadrasana_I_'  
-            if(label==2): pose_detect = 'Standing_big_toe_hold_pose_or_Utthita_Padangusthasana'     
-            if(label==3): pose_detect = 'Warrior_II_Pose_or_Virabhadrasana_II_'     
-            if(label==4): pose_detect = 'Cat_Cow_Pose_or_Marjaryasana_'
-            if(label==5): pose_detect = 'Child_Pose_or_Balasana_'  
-            if(label==6): pose_detect = 'Cobra_Pose_or_Bhujangasana_'     
-            if(label==7): pose_detect = 'Tree_Pose_or_Vrksasana_'     
-            if(label==8): pose_detect = 'Downward-Facing_Dog_pose_or_Adho_Mukha_Svanasana_'
+            if(label==0): pose_detect = 'Plank_Pose (Kumbhakasana)'    
+            if(label==1): pose_detect = 'Warrior_I_Pose (Virabhadrasana_I)'  
+            if(label==2): pose_detect = 'Standing_big_toe_hold_pose (Utthita_Padangusthasana)' 
+            if(label==3): pose_detect = 'Warrior_II_Pose (Virabhadrasana_II)'     
+            if(label==4): pose_detect = 'Cat_Cow_Pose (Marjaryasana)'
+            if(label==5): pose_detect = 'Child_Pose (Balasana)'
+            if(label==6): pose_detect = 'Cobra_Pose (Bhujangasana)'
+            if(label==7): pose_detect = 'Tree_Pose (Vrksasana)' 
+            if(label==8): pose_detect = 'Downward-Facing_Dog_pose (Adho_Mukha_Svanasana)'
         else:
             pose_detect = "No pose detected"    
 
