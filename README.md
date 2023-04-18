@@ -38,7 +38,7 @@ Run the app:
 
     python app.py
 
-Click this URL <a href="http://127.0.0.1:5000/" target="_blank">http://127.0.0.1:5000/</a> to open the app
+Click this URL http://127.0.0.1:5000/ to open the app
 
 Upload the image and click on predict to predict the yoga pose
 
