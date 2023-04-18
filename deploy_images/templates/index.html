@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pose Detection App</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Pose Detection App</h1>
+    <form action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
+      <label for="image">Upload an image:</label>
+      <input type="file" id="image" name="image">
+      <button type="submit">Predict</button>
+    </form>
+  </div>
+</body>
+</html>
