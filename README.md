@@ -2,7 +2,7 @@
 
 Undergraduation project | Supervisor: Dr. Tushar Sandhan
 
-Develop an AI-based program for the estimation and identification of yoga poses, which can be used as a self-guidance practice framework for individuals to practice yoga postures without getting help from anyone else
+Developed an AI-based program for the estimation and identification of yoga poses, which can be used as a self-guidance practice framework for individuals to practice yoga postures without getting help from anyone else
 
 - Extracted 33 important key-points as feature vectors using Mediapipe and then enhanced features by incorporating 8 essential joint angles
 - Enhanced features by incorporating 8 essential joint angles and normalized keypoints w.r.t. pose center
