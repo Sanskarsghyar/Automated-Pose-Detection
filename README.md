@@ -4,9 +4,9 @@ Undergraduation project | Supervisor: Dr. Tushar Sandhan
 
 Develop an AI-based program for the estimation and identification of yoga poses, which can be used as a self-guidance practice framework for individuals to practice yoga postures without getting help from anyone else
 
-- Extracted the 33 important keypoints as feature vectors from the individual’s skeleton using Mediapipe
+- Extracted 33 important key-points as feature vectors using Mediapipe and then enhanced features by incorporating 8 essential joint angles
 - Enhanced features by incorporating 8 essential joint angles and normalized keypoints w.r.t. pose center
-- Trained KNN and ANN model, and achieved an accuracy of 99% for training and 96% for testing dataset
+- Trained KNN & ANN model with an accuracy of 96% and finally executed the real-time AI model for continuous monitoring of the yoga pose
 
 ## Clone the repository to your local machine:
 
